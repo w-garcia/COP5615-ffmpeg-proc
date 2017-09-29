@@ -2,7 +2,9 @@
 
 This project acts as a daemon-style folder watcher for converting any (LEGALLY OBTAINED) videos to .mp3 format. The program is extension agnostic and takes arguments of the form:
 
+```
 ./ffmpeg_proc <input_dir> <output_dir>
+```
 
 The program will keep track of the files in the input_dir, and save these files as .mp3 to the output_dir. This means files can be dragged and dropped into the input_dir and the program will automatically perform conversion. 
 
