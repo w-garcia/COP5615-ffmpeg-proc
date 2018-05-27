@@ -10,7 +10,12 @@ The program will keep track of the files in the input_dir, and save these files 
 
 ## Dependencies:
 
+#### Elixir: 
+Install Elixir here: https://elixir-lang.org/install.html
+
+#### ffmpeg:
 ffmpeg must be installed either system-wide or downloaded to the directory where the program is run from. For system wide, simply do:
+
 
 ```
 sudo apt-get install ffmpeg
