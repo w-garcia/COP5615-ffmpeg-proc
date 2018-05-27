@@ -1,4 +1,4 @@
-# FFMPEG_PROC
+# any-to-mp3 Daemon
 
 This project acts as a daemon-style folder watcher for converting any (LEGALLY OBTAINED) videos to .mp3 format. The program is extension agnostic and takes arguments of the form:
 
