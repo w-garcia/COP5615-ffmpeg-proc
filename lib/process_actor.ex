@@ -26,9 +26,9 @@ defmodule Processor do
         outfile = Enum.join([base, ".mp3"])
         out_path = Path.join([outdir, outfile])
 
-        args = ["-i", in_path, "-b:a", "320K", "-vn", out_path]
+        args = ["-y", "-i", in_path, "-b:a", "320K", "-vn", out_path]
         ffmpeg_bin = Application.get_env(:ffmpeg_proc, :bin_path)
-        
+        # IO.inspect(args)
         {logtext, status} = System.cmd(ffmpeg_bin, args, [stderr_to_stdout: true])
 
         if status != 0 do
